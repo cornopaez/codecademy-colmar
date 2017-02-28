@@ -57,3 +57,73 @@ header ul li {
 	color: white;
 	text-align: center;
 }
+
+/*Activities
+---------------------------------------------*/
+
+.activities {
+	display: inline-flex;
+}
+
+.activities .left {
+	padding: 2rem 1.5rem 0 1.5rem;
+	position: relative;
+}
+
+.activities .left img {
+	width: 100%;
+	height: auto;
+}
+
+.activities .left h2 {
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.activities .left p {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.activities .left .img-footer {
+	/*position: absolute;*/
+}
+
+.activities .right {
+	min-width: 26.4375rem;
+	border-left: 1px solid lightgrey;
+}
+
+.activities .right .cell {
+	display: flex;
+	align-items: center;
+}
+
+.activities .right .cell:first-child {
+	border-bottom: 1px solid lightgrey;
+}
+
+.activities .right .cell:last-child {
+	background-color: lightgrey;
+}
+
+.activities .right .cell img {
+	width: 35%;
+	height: auto;
+	margin: 1rem;
+}
+
+.activities .right .cell h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.activities .right .cell p {
+	margin-bottom: 0.5rem;
+}
+
+.activities .right .cell a {
+	color: blue;
+}
