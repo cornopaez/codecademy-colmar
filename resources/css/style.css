@@ -8,17 +8,8 @@ html {
 ---------------------------------------------*/
 header {
 	height: 4rem;
-}
-
-.container {
-	max-width: 50rem;
-	margin: 0 auto;
-}
-
-header .container {
 	display: flex;
 	justify-content: space-between;
-	height: 100%;
 	align-items: center;
 	padding: 0 1.5rem;
 }
@@ -35,7 +26,7 @@ header ul li {
 /*Banner
 ---------------------------------------------*/
 
-.banner .container {
+.banner {
 	padding: 2rem 1.5rem;
 	display: flex;
 	flex-direction: row;
@@ -43,23 +34,23 @@ header ul li {
 	background-color: lightgrey;
 }
 
-.banner .container img {
+.banner img {
 	width: 60%;
 	height: auto;
 	margin-right: 2.5rem;
 }
 
-.banner .container .info h1 {
+.banner .info h1 {
 	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 1rem;
 }
 
-.banner .container .info p {
+.banner .info p {
 	margin-bottom: 1rem;
 }
 
-.banner .container .info a {
+.banner .info a {
 	display: block;
 	padding: 0.5rem;
 	background-color: darkgrey;
