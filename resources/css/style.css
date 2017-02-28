@@ -88,7 +88,8 @@ header ul li {
 }
 
 .activities .left .img-footer {
-	/*position: absolute;*/
+	position: absolute;
+	bottom: 0;
 }
 
 .activities .right {
@@ -127,3 +128,58 @@ header ul li {
 .activities .right .cell a {
 	color: blue;
 }
+
+/*Learning
+---------------------------------------------*/
+
+.learning {
+	padding: 2rem;
+	background: lightgrey;
+}
+
+.learning h2 {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.learning h4 {
+	text-transform: uppercase;
+	margin-bottom: 0.5rem;
+}
+
+.learning .row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
+
+.learning .row:last-child{
+	margin-bottom: 0;
+}
+
+.learning .row .learn-item {
+	min-height: 13.75rem;
+	width: 13.75rem;
+	background: white;
+	margin-right: 2rem;
+}
+
+.learning .row .learn-item:last-child {
+	margin-right: 0;
+}
+
+.learning .row .learn-item img {
+	width: 100%;
+	height: auto;
+}
+
+.learning .row .learn-item .info {
+	padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.learning .row .learn-item .info h3 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
