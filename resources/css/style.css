@@ -245,3 +245,15 @@ header ul li {
 
 /*Footer
 ---------------------------------------------*/
+
+footer {
+	border-top: 1px solid lightgrey;
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 1.5rem;
+}
+
+footer ul li {
+	display: inline-flex;
+	padding-left: 0.5rem;
+}
