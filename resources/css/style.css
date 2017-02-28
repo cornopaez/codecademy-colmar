@@ -183,3 +183,65 @@ header ul li {
 	margin-bottom: 0.5rem;
 }
 
+/*Thesis
+---------------------------------------------*/
+
+.thesis .title {
+	text-align: center;
+	font-size: 2rem;
+	padding: 2rem 0;
+}
+
+.thesis .content {
+	display: flex;
+}
+
+.thesis .content .left {
+	padding: 0 1rem 0 1.5rem;
+}
+
+.thesis .content .left video {
+	max-width: 100%;
+}
+
+.thesis .content .left h2 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 1.5rem 0;
+}
+
+.thesis .content .left p {
+	padding-bottom: 2rem;
+}
+
+.thesis .content .right {
+	min-width: 26.4375rem;
+}
+
+.thesis .content .right .cell:first-child {
+	background: lightgrey;
+}
+
+.thesis .content .right .cell {
+	height: 10.5rem;
+	display: flex;
+	padding: 1rem;
+	align-items: center;
+}
+
+.thesis .content .right .cell img {
+	height: 100%;
+	padding-right: 2rem;
+}
+
+.thesis .content .right .cell .support h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.thesis .content .right .cell .support p {
+	margin-bottom: 0.5rem;
+}
+
+/*Footer
+---------------------------------------------*/
